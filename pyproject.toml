@@ -1,0 +1,17 @@
+[project]
+name = "website-qa-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+  "streamlit",
+  "langchain",
+  "langchain-community",
+  "faiss-cpu",
+  "langchain-groq",
+  "sentence-transformers",
+  "beautifulsoup4",
+  "requests",
+  "python-dotenv",
+]
